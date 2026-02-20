@@ -1,0 +1,12 @@
+
+function toast()
+gg.toast("online")
+end
+
+while true do
+ if gg.isVisible(true) then
+        gg.setVisible(false)
+  
+        toast()
+    end
+end
